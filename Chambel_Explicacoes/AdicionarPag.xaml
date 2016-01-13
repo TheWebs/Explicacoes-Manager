@@ -1,0 +1,14 @@
+﻿<Window x:Class="Chambel_Explicacoes.AdicionarPag"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chambel_Explicacoes"
+        mc:Ignorable="d"
+        Title="AdicionarPag" Height="88.235" Width="587.395" WindowStyle="None" Background="#FF0040FF" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF323232" Margin="2">
+        <Button x:Name="button" Content="Adicionar" HorizontalAlignment="Left" Height="56" Margin="448,13,0,0" VerticalAlignment="Top" Width="117" Background="#FFA44040" BorderBrush="#FF0040FF" BorderThickness="2" Foreground="White" FontSize="18.667" FontWeight="Bold" Cursor="Hand" Click="button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="56" Margin="10,13,0,0" TextWrapping="Wrap" Text="dia-mes-ano" VerticalAlignment="Top" Width="433" BorderThickness="2" BorderBrush="#FF0040FF" TextAlignment="Center"/>
+
+    </Grid>
+</Window>
