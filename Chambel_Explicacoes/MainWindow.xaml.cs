@@ -121,5 +121,58 @@ namespace Chambel_Explicacoes
         {
             RefreshDaLista();
         }
+
+        // DAQUI PARA BAIXO ANIMACOES DE BOTOES
+
+        //EXIT
+        private void Exit_MouseEnter(object sender, MouseEventArgs e)
+        {
+            //Exit.Margin = new Thickness(502, 275, 0, 0);
+            Exit.Margin = new Thickness(Exit.Margin.Left - 6, Exit.Margin.Top - 6, 0, 0);
+        }
+
+        private void Exit_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Exit.Margin = new Thickness(Exit.Margin.Left + 6, Exit.Margin.Top + 6, 0, 0);
+        }
+        //EXIT
+
+        //ADICIONAR
+        private void Adicionar_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Adicionar.Margin = new Thickness(Adicionar.Margin.Left - 6, Adicionar.Margin.Top - 6, 0, 0);
+        }
+
+        private void Adicionar_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Adicionar.Margin = new Thickness(Adicionar.Margin.Left + 6, Adicionar.Margin.Top + 6, 0, 0);
+        }
+        //ADICIONAR
+
+        //ACTUALIZAR
+        private void Actualizar_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Actualizar.Margin = new Thickness(Actualizar.Margin.Left - 6, Actualizar.Margin.Top - 6, 0, 0);
+        }
+
+        private void Actualizar_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Actualizar.Margin = new Thickness(Actualizar.Margin.Left + 6, Actualizar.Margin.Top + 6, 0, 0);
+        }
+        //ACTUALIZAR
+
+        //PAGAR
+        private void Pagar_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Pagar.Margin = new Thickness(Pagar.Margin.Left - 6, Pagar.Margin.Top - 6, 0, 0);
+        }
+
+        private void Pagar_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Pagar.Margin = new Thickness(Pagar.Margin.Left + 6, Pagar.Margin.Top + 6, 0, 0);
+        }
+        //PAGAR
+
+
     }
 }
